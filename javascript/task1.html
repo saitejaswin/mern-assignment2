@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TASK-1</title>
+    </head>
+    <body>
+        <h3>Reverse of a number</h3>
+        <h4>see the answer in console</h4>
+        <script>
+            function reverseFunction(num) {
+	let numStr = num.toString();
+	let reversedStr = '';
+	for (let i = numStr.length - 1; i >= 0; i--) {
+		reversedStr += numStr[i];
+	}
+	return parseInt(reversedStr);
+}
+
+let num = 32243;
+let reversedNum = reverseFunction(num);
+
+console.log(reversedNum);
+
+        </script>
+    </body>
+</html>

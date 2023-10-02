@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TASK 2</title>
+    </head>
+    <body>
+        <h3>Return a string in alphabetical order</h3>
+        <h4>See the answer in console</h4>
+        <script>
+            
+            
+function alpha(str) {
+	var arr = str.split("");
+	res = arr.sort().join("");
+	rws = res.replace(/\s+/g, "");
+	return rws;
+}
+
+
+console.log(alpha("webmaster"));
+
+
+        </script>
+    </body>
+</html>
